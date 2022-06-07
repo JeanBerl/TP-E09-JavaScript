@@ -3,15 +3,15 @@ function tabuleiro(){
     let tamanho = parseInt(document.getElementById("input_tabuleiro").value);
     let containertabuleiro = document.getElementById("tabuleiro");
     
-    let desenhoTriangulo = "";
+    let desenhoTabuleiro = "";
     for (let i = 0; i < tamanho; i++) {
-        desenhoTriangulo += "<p>";
+        desenhoTabuleiro += "<p>";
         
-        if(i%2 == 0) desenhoTriangulo += "# # # #";
-        else desenhoTriangulo += "&nbsp;# # # #";
+        if(i%2 == 0) desenhoTabuleiro += "# # # #";
+        else desenhoTabuleiro += "&nbsp;# # # #";
         
-        desenhoTriangulo += "</p>"
+        desenhoTabuleiro += "</p>"
     }
 
-    containertabuleiro.innerHTML = desenhoTriangulo;
+    containertabuleiro.innerHTML = desenhoTabuleiro;
 }

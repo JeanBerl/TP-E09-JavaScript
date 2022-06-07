@@ -8,6 +8,7 @@
     <script src="triangulo.js"></script>
     <script src="palindromo.js"></script>
     <script src="tabuleiro.js"></script>
+    <script src="umprogdif.js"></script>
     <title>Document</title>
 </head>
 
@@ -17,15 +18,21 @@
     <button onclick="desenhaTriangulo()" type="submit">Desenhar Triângulo</button>
     <div id="desenho_triangulo"></div>
 
-    <label for="input_palavra">Digite a palavra para verificar se é palíndromo: </label>
-    <input id="input_palavra" type="text">
-    <button onclick="ePalindromo()" type="submit">Verificar</button>
-    <div id="e_palindromo"></div>
-
     <label for="input_tabuleiro">Insira o número de linhas:</label>
     <input id="input_tabuleiro" type="number">
     <button onclick="tabuleiro()" type="submit">Desenhar Tabuleiro</button>
     <div id="tabuleiro"></div>
+
+    <label for="input_palavra">Digite a palavra para verificar se é palíndromo: </label>
+    <input id="input_palavra" type="text">
+    <button onclick="ePalindromo()" type="submit">Verificar</button>
+    <div id="e_palindromo"></div>
+    
+    <label for="inputumprogdif">Imprimir números de 1 a 100</label>
+    <button onclick="umprogdif()" type="submit">Imprimir</button>
+    <div id="umprogdif"></div>
+
+
 </body>
 
 </html>
