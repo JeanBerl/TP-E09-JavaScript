@@ -9,6 +9,7 @@
     <script src="palindromo.js"></script>
     <script src="tabuleiro.js"></script>
     <script src="umprogdif.js"></script>
+    <script src="Max_Min.js"></script>
     <title>Document</title>
 </head>
 
@@ -32,7 +33,17 @@
     <button onclick="umprogdif()" type="submit">Imprimir</button>
     <div id="umprogdif"></div>
 
+    <label for="inputmax">Insira os números:</label>
+    <input id="input_amax" name="inputmax" type="number" placeholder="a"/>
+    <input id="input_bmax" name="inputmax" type="number" placeholder="b"/>
+    <button onclick="max()" type="submit">Retorna o maior</button>
+    <div id="max"></div>
 
+    <label for="inputmin">Insira os números:</label>
+    <input id="input_amin" name="inputmin" type="number" placeholder="a"/>
+    <input id="input_bmin" name="inputmin" type="number" placeholder="b"/>
+    <button onclick="min()" type="submit">Retorna o menor</button>
+    <div id="min"></div>
 </body>
 
 </html>
