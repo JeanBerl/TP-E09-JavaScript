@@ -11,3 +11,21 @@ function ordenacao(array, tipo){
     }
     return array;
 }
+
+function descrescente(a, b){
+    return a > b;
+}
+
+function crescente(a, b){
+    return a < b;
+}
+
+
+function mainOrdenacao()
+{
+    var array = [1,2,3,4,5,6,7,8,9,10];
+
+    console.log('Array antes da ordenação: ' + array);
+    console.log('Decrescente' + ordenacao(array, descrescente));
+    console.log('Crescente' + ordenacao(array, crescente));
+}

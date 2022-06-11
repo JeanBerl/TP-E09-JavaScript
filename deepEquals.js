@@ -8,3 +8,20 @@ function deepEquals(obj1, obj2){
     })
     return isEqual;
 }
+
+function mainDeepEquals()
+{
+    var obj1 = {
+        a: 1,
+        b: 2,
+        c: 3
+    };
+
+    var obj2 = {
+        a: 1,
+        b: 2,
+        c: 3
+    };
+
+    console.log(deepEquals(obj1, obj2));
+}
