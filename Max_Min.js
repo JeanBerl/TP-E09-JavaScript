@@ -18,7 +18,7 @@ function min(a, b){
 function maxPag(){
 
     let containerMax = document.getElementById("max");
-    containerMin.innerHTML = '';
+    containerMax.innerHTML = '';
     let a = document.getElementById("input_amax").value;
     let b = document.getElementById("input_bmax").value;
 
